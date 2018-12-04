@@ -229,6 +229,7 @@ labium_cut_points=
                 else lower_outer_labium_cut[i][k]
         ],
 	];
+//echo(labium_cut_points=labium_cut_points);
                 
 labium_cut_faces=[for (i = [0 : (len(name) -1)])
     [                     // Copying from loft module
